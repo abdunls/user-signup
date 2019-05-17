@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignUp</title>
+        <style type="text/css">
+            .error {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        
+
+        <form action="/signup" id="form" method="POST">
+            <h1>SignUp</h1>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" value="" >
+            
+            
+            <br></br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" value="" required>
+            
+            <br></br>
+
+            <label for="password">Verify Password</label>
+            <input type="password" name="password2" id="password2" value="" required>
+            
+            <br></br>
+
+            <label for="email">Email (optional)</label>
+            <input type="text" name="email" id="email" value="" />
+
+            <br></br>
+            <button type="submit">Submit</button>
+        </form>
+            
+    </body>
+</html>
